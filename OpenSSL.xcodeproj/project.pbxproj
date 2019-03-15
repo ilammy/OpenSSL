@@ -85,8 +85,6 @@
 		9F4A2707223BD900005CB63A /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4A2705223BD900005CB63A /* libssl.a */; };
 		9F4A2708223BD900005CB63A /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4A2706223BD900005CB63A /* libcrypto.a */; };
 		9F4A270E223BD9EB005CB63A /* OpenSSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4A270D223BD9EB005CB63A /* OpenSSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F4A2721223BE4E7005CB63A /* OpenSSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4A271F223BE4E6005CB63A /* OpenSSL.h */; };
-		9F4A2722223BE4E7005CB63A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F4A2720223BE4E7005CB63A /* Info.plist */; };
 		9F4A2723223BE516005CB63A /* OpenSSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4A271F223BE4E6005CB63A /* OpenSSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F4A2771223BE55A005CB63A /* seed.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4A2726223BE554005CB63A /* seed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F4A2772223BE55A005CB63A /* dtls1.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4A2727223BE554005CB63A /* dtls1.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -620,7 +618,6 @@
 				9F4A26FD223BD8DB005CB63A /* pkcs12.h in Headers */,
 				9F4A2703223BD8DB005CB63A /* krb5_asn.h in Headers */,
 				9F4A26EE223BD8DB005CB63A /* cast.h in Headers */,
-				9F4A2721223BE4E7005CB63A /* OpenSSL.h in Headers */,
 				9F4A26E4223BD8DB005CB63A /* rand.h in Headers */,
 				9F4A26E2223BD8DB005CB63A /* ssl3.h in Headers */,
 				9F4A26DB223BD8DB005CB63A /* evp.h in Headers */,
@@ -824,7 +821,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F4A2722223BE4E7005CB63A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
