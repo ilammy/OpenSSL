@@ -1,3 +1,6 @@
+// Include before others:
+#include "ssl.h"
+
 #include "aes.h"
 #include "asn1.h"
 #include "asn1_mac.h"
@@ -58,7 +61,6 @@
 #include "sha.h"
 #include "srp.h"
 #include "srtp.h"
-#include "ssl.h"
 #include "ssl2.h"
 #include "ssl23.h"
 #include "ssl3.h"
