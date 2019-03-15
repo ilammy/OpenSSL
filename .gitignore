@@ -1,3 +1,4 @@
 *.DS_Store
 
 /OpenSSL.xcodeproj/project.xcworkspace/xcuserdata/
+/OpenSSL.xcodeproj/xcuserdata/

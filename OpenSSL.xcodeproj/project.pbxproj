@@ -6,6 +6,20 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		9F4A2631223BD16F005CB63A /* Frameworks */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9F4A2632223BD16F005CB63A /* Build configuration list for PBXAggregateTarget "Frameworks" */;
+			buildPhases = (
+				9F4A2635223BD192005CB63A /* Create Frameworks */,
+			);
+			dependencies = (
+			);
+			name = Frameworks;
+			productName = OOO;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXGroup section */
 		9F4A2626223BCE31005CB63A = {
 			isa = PBXGroup;
@@ -20,6 +34,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					9F4A2631223BD16F005CB63A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
 			};
 			buildConfigurationList = 9F4A262A223BCE31005CB63A /* Build configuration list for PBXProject "OpenSSL" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -32,9 +51,31 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				9F4A2631223BD16F005CB63A /* Frameworks */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F4A2635223BD192005CB63A /* Create Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Create Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./create-framework.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		9F4A262B223BCE31005CB63A /* Debug */ = {
@@ -49,6 +90,22 @@
 			};
 			name = Release;
 		};
+		9F4A2633223BD16F005CB63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F4A2634223BD16F005CB63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -57,6 +114,15 @@
 			buildConfigurations = (
 				9F4A262B223BCE31005CB63A /* Debug */,
 				9F4A262C223BCE31005CB63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F4A2632223BD16F005CB63A /* Build configuration list for PBXAggregateTarget "Frameworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4A2633223BD16F005CB63A /* Debug */,
+				9F4A2634223BD16F005CB63A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
